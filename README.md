@@ -4,7 +4,7 @@ This nwjs app crashes when it reaches the code line:
 
 ```App.addOriginAccessWhitelistEntry('http://github.com/', 'chrome-extension', location.host, false);```
 
-without any error, this function addOriginAccessWhitelistEntry is being tested with different parameters but still it 
+without any error being thrown, this function addOriginAccessWhitelistEntry is being tested with different parameters but still it 
 crashes, logs that it gave on cash:
 
 ```
@@ -39,4 +39,4 @@ Received signal 4 <unknown> 000110c88f92
 [end of stack trace]
 ```
 
-All the files in te crashpad folder are also attaced in the dump-files-completed folder
+All the files in the crashpad folder are also attached in the dump-files-completed folder
