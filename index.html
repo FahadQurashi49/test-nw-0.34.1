@@ -1,0 +1,10 @@
+<html>
+    <title>hello world</title>
+    <body>
+        hello world!
+        <script>
+            var App = require('nw.gui').App;
+            App.addOriginAccessWhitelistEntry('http://github.com/', 'chrome-extension', location.host, false);
+        </script>
+    </body>
+</html>
